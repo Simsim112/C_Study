@@ -26,33 +26,32 @@ int main()
 
 //문제2
 //소수를 출력하라
-/*
-int main()
-{
-	int PrimeNumber[1000];
-	int i =2, j;
-	int num = 0;
-	int count = 0; //처음에 2를 넣기위해서 0으로 설정해준다.
-	while (1)
-	{
-		for (j = 2; j < i; j++)
-		{
-			if (i % j == 0)
-			{
-				count++;
-			}
-		}
-		if (count < 1)
-		{
-			PrimeNumber[num] = i;
-			printf("%d 번째 소수 : %d\n", num + 1, PrimeNumber[num]);
-			if (num == 999) break;
-			num++;
-		}
-		count = 0;
-		j = 2;
-		i++;
-	}
-	return 0;
-}
-*/
+
+//int main()
+//{
+//	int PrimeNumber[1000];
+//	int i =2, j;
+//	int num = 0;
+//	int count = 0; //처음에 2를 넣기위해서 0으로 설정해준다.
+//	while (1)
+//	{
+//		for (j = 2; j < i; j++)
+//		{
+//			if (i % j == 0)
+//			{
+//				count++;
+//			}
+//		}
+//		if (count < 1)
+//		{
+//			PrimeNumber[num] = i;
+//			printf("%d 번째 소수 : %d\n", num + 1, PrimeNumber[num]);
+//			if (num == 999) break;
+//			num++;
+//		}
+//		count = 0;
+//		j = 2;
+//		i++;
+//	}
+//	return 0;
+//}
