@@ -189,8 +189,8 @@ int minus(int parr1[], int parr2[], int num);
 int main()
 {
 	int num = 3;
-	int arr1[1000] = { 2,1,3 };
-	int arr2[1000]= { 2,2,4 };
+	int arr1[1000] = { 2,1,3,1,3,2,1 };
+	int arr2[1000]= { 2,2,4,1,2,3,4 };
 
 	/*for (int i = 0; i < num; i++)
 	{
@@ -198,8 +198,8 @@ int main()
 		arr2[i] = 4;
 	}*/
 
-	//add(arr1, arr2, num);
-	minus(arr1, arr2, num);
+	add(arr1, arr2, num);
+	//minus(arr1, arr2, num);
 }
 //1000ÀÚ¸® µ¡¼À
 int add(int parr1[], int parr2[], int num)
