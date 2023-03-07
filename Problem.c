@@ -26,7 +26,6 @@ int main()
 
 //문제2
 //소수를 출력하라
-
 //int main()
 //{
 //	int PrimeNumber[1000];
