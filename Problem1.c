@@ -180,26 +180,26 @@ int era(int arr[], int num)
 }
 */
 
-//문제3
+//문제3(미완성)
 //1000 자리의 수들의 덧셈, 뺄셈, 곱셈, 나눗셈을 수행하는 프로그램을 만들어보세요.
 //나눗셈의 경우 소수 부분을잘라버리세요.물론, 소수 부도 1000 자리로 구현해도 됩니다. 
 //1000 자리 수들의 연산 수행 시간은 1 초 미만이여야합니다.
+
+/*
 int add(int parr1[], int parr2[], int num);
 int minus(int parr1[], int parr2[], int num);
 int main()
 {
-	int num = 3;
+	int num = 7;
 	int arr1[1000] = { 2,1,3,1,3,2,1 };
 	int arr2[1000]= { 2,2,4,1,2,3,4 };
 
-	/*for (int i = 0; i < num; i++)
-	{
-		arr1[i] = 2;
-		arr2[i] = 4;
-	}*/
-
+	//for (int i = 0; i < num; i++)
+	//{
+	//	arr1[i] = 2;
+	//	arr2[i] = 4;
+	//}
 	add(arr1, arr2, num);
-	//minus(arr1, arr2, num);
 }
 //1000자리 덧셈
 int add(int parr1[], int parr2[], int num)
@@ -273,3 +273,4 @@ int minus(int parr1[], int parr2[], int num)
 	printf("%d", big);
 
 }
+*/
