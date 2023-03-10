@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 //문제1
@@ -73,7 +74,3 @@ int compare(char* str1, char* str2)
 	return 1;
 }
 */
-
-//문제 2
-//큰 수를 다루는 구조체를 생각해봅시다. 
-//그 구조체의 이름은 BigNum 입니다. BigNum 구조체에는 다음과 같은 멤버들이 있을 수 있습니다.

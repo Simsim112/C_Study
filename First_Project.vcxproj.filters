@@ -9,6 +9,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\File">
+      <UniqueIdentifier>{39f5e3ab-ce07-46d2-a0a3-24ff181a8907}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.c">
@@ -29,5 +32,25 @@
     <ClCompile Include="Problem3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Problem4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="human.c">
+      <Filter>소스 파일\File</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>소스 파일\File</Filter>
+    </ClCompile>
+    <ClCompile Include="str.c">
+      <Filter>소스 파일\File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="human.h">
+      <Filter>소스 파일\File</Filter>
+    </ClInclude>
+    <ClInclude Include="str.h">
+      <Filter>소스 파일\File</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

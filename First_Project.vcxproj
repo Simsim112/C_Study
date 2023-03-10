@@ -103,7 +103,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -129,11 +129,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Function.c" />
+    <ClCompile Include="human.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="Problem.c" />
     <ClCompile Include="Problem1.c" />
     <ClCompile Include="Problem2.c" />
     <ClCompile Include="Problem3.c" />
+    <ClCompile Include="Problem4.c" />
+    <ClCompile Include="str.c" />
+    <ClCompile Include="test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="human.h" />
+    <ClInclude Include="str.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
