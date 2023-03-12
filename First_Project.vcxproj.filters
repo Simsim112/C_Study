@@ -12,6 +12,9 @@
     <Filter Include="소스 파일\File">
       <UniqueIdentifier>{39f5e3ab-ce07-46d2-a0a3-24ff181a8907}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\new">
+      <UniqueIdentifier>{0879e864-fd66-4519-806b-a6c0a65a99c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.c">
@@ -44,6 +47,12 @@
     <ClCompile Include="str.c">
       <Filter>소스 파일\File</Filter>
     </ClCompile>
+    <ClCompile Include="origin.c">
+      <Filter>소스 파일\new</Filter>
+    </ClCompile>
+    <ClCompile Include="student.c">
+      <Filter>소스 파일\new</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="human.h">
@@ -51,6 +60,9 @@
     </ClInclude>
     <ClInclude Include="str.h">
       <Filter>소스 파일\File</Filter>
+    </ClInclude>
+    <ClInclude Include="student.h">
+      <Filter>소스 파일\new</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

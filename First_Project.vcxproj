@@ -131,17 +131,20 @@
     <ClCompile Include="Function.c" />
     <ClCompile Include="human.c" />
     <ClCompile Include="Main.c" />
+    <ClCompile Include="origin.c" />
     <ClCompile Include="Problem.c" />
     <ClCompile Include="Problem1.c" />
     <ClCompile Include="Problem2.c" />
     <ClCompile Include="Problem3.c" />
     <ClCompile Include="Problem4.c" />
     <ClCompile Include="str.c" />
+    <ClCompile Include="student.c" />
     <ClCompile Include="test.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="human.h" />
     <ClInclude Include="str.h" />
+    <ClInclude Include="student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
