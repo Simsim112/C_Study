@@ -193,4 +193,3 @@ int add_size(int** p, int *p_size)	//포인터의 값을 바꾸기 위해서는 이중포인터를 
 	*p_size += add_size;
 }
 */
-
