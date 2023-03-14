@@ -141,6 +141,7 @@
     <ClCompile Include="str.c" />
     <ClCompile Include="student.c" />
     <ClCompile Include="test.c" />
+    <ClCompile Include="Testing.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="human.h" />

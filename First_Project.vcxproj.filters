@@ -56,6 +56,9 @@
     <ClCompile Include="problem5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Testing.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="human.h">
