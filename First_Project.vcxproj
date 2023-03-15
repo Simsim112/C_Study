@@ -138,6 +138,8 @@
     <ClCompile Include="Problem3.c" />
     <ClCompile Include="Problem4.c" />
     <ClCompile Include="problem5.c" />
+    <ClCompile Include="Problem6.c" />
+    <ClCompile Include="Problem7.c" />
     <ClCompile Include="str.c" />
     <ClCompile Include="student.c" />
     <ClCompile Include="test.c" />

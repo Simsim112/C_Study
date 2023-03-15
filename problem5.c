@@ -158,6 +158,7 @@ int main()
 
 //문제5
 //이전 강좌에서 만들었던 도서 관리 프로그램을 동적 할당과 구조체를 이용하여 만들어보세요
+/*
 typedef struct BOOK {
 	char name[50];
 	char author[50];
@@ -174,13 +175,35 @@ int main()
 {
 	Book* book;
 	int book_count = 1;
+	int sel;
 	book = (Book*)malloc(sizeof(Book));
-	Add_Book(&book, &book_count);
-	Add_Book(&book, &book_count);
-	Search(book, book_count);
-	Rent_Book(book, book_count);
-	Return_Book(book, book_count);
 
+	while (1) {
+		printf("******************************도서 대출 프로그램******************************\n");
+		printf("1. 책추가 2.책제목검색 3.책빌리기 4.책반납하기 5.종료\n");
+		printf("하실 작업을 선택해주세요 : ");
+		scanf("%d", &sel);
+		getchar();
+		switch (sel)
+		{
+		case 1:
+			Add_Book(&book, &book_count);
+			break;
+		case 2:
+			Search(book, book_count);
+			break;
+		case 3:
+			Rent_Book(book, book_count);
+			break;
+		case 4:
+			Return_Book(book, book_count);
+			break;
+		case 5:
+			return 0;
+		default:
+			printf("다시 입력해주세요\n");
+		}
+	}
 
 	free(book);
 	return 0;
@@ -199,7 +222,11 @@ void Add_Book(Book** book, int* book_count)
 
 	(*book)[*book_count - 1].borrowed = 0;
 
+	Print_Book(*book, *book_count - 1);
+
 	*book_count += 1;
+
+
 }
 //책 검색
 int Search(Book* book, int book_count)
@@ -223,10 +250,11 @@ int Search(Book* book, int book_count)
 //책 정보출력
 void Print_Book(Book* book, int book_num)
 {
-	printf("%s\n", book[book_num].name);
-	printf("%s\n", book[book_num].author);
-	printf("%s\n", book[book_num].publisher);
-	printf("%d\n", book[book_num].borrowed);
+	printf("책 이름: %s\n", book[book_num].name);
+	printf("저자 이름: %s\n", book[book_num].author);
+	printf("출판사 이름: %s\n", book[book_num].publisher);
+	printf("대출 여부 : ");
+	if (book[book_num].borrowed == 0) printf("대여가능\n"); else printf("대출중\n");
 }
 //책 빌리기
 void Rent_Book(Book* book, int book_num)
@@ -239,7 +267,7 @@ void Rent_Book(Book* book, int book_num)
 	{
 		if (book[i].borrowed != 0)
 		{
-			printf("이미 대출된 책입니다.");
+			printf("이미 대출된 책입니다.\n");
 		}
 		else
 		{
@@ -270,7 +298,7 @@ void Return_Book(Book* book, int book_num)
 	{
 		if (book[i].borrowed == 0)
 		{
-			printf("대출이 안된책입니다.");
+			printf("대출이 안된책입니다.\n");
 		}
 		else
 		{
@@ -290,3 +318,4 @@ void Return_Book(Book* book, int book_num)
 		}
 	}
 }
+*/
